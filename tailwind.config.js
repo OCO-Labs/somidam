@@ -1,10 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 /* eslint-disable no-undef */
 module.exports = {
-  purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
-  darkMode: false, // or 'media' or 'class'
+  content: [
+    './public/**/*.html',
+    './src/**/*.{js,jsx,ts,tsx,vue}',
+  ],
+  darkMode: 'media', // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'somidam' : '#946045'
+      }
+    },
   },
   variants: {
     extend: {},
