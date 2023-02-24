@@ -1,9 +1,30 @@
 <script setup>
+
+
+
+
 </script>
 
 <template>
-  <div>여기다가 메인페이지 만들면 되용 하트하트 뿅뿅ㅎㅎ</div>
+  
+  <div class="flex flex-col" >
+    <img src="../assets/somidam_logo.svg" class="max-h-96 bg-black"/>
+  </div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+
+
+  
+
+  
 </template>
+
+
 
 <!-- css style을 따로 정의할 땐 꼭 scoped 로!! -->
 <!-- https://v2.tailwindcss.com/docs/container -->
