@@ -5,6 +5,7 @@
         src="../assets/logo.svg"
         alt="Somidam Logo"
         width="110"
+        height="110"
       >
       <div class="flex space-x-14">
         <div class="text-somidam font-bold">
@@ -24,27 +25,32 @@
             src="../assets/facebook.svg"
             alt="facebook"
             width="12"
+            height="12"
           >
           <img
             src="../assets/instagram.svg"
             alt="instagram"
             width="12"
+            height="12"
           >
           <img
             src="../assets/youtube.svg"
             alt="youtube"
             width="12"
+            height="12"
           >
           <!-- 네이버 svg 만들어야 함 -->
           <img
             src="../assets/facebook.svg"
             alt="naver"
             width="12"
+            height="12"
           >
           <img
             src="../assets/tiktok.svg"
             alt="tiktok"
             width="12"
+            height="12"
           >
         </div>
       </div>
