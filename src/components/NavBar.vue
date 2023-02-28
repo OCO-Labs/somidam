@@ -1,38 +1,53 @@
 <template>
-  <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5">
-    <div class="container flex flex-wrap items-center justify-between mx-auto">
+  <div class="border-b">
+    <div class="container flex flex-wrap items-center justify-between mx-auto my-4">
       <img
         src="../assets/logo.svg"
         alt="Somidam Logo"
         width="110"
       >
-      <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white">
-        <li>
-          <a
-            href="#"
-            class="block py-2 pl-3 pr-4 font-bold text-lg text-somidam rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0"
-            aria-current="page"
-          >브랜드</a>
-        </li>
-        <li>
-          <a
-            href="#"
-            class="block py-2 pl-3 pr-4 font-bold text-lg text-somidam rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0"
-          >메뉴</a>
-        </li>
-        <li>
-          <a
-            href="#"
-            class="block py-2 pl-3 pr-4 font-bold text-lg text-somidam rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0"
-          >창업안내</a>
-        </li>
-        <li>
-          <a
-            href="#"
-            class="block py-2 pl-3 pr-4 font-bold text-lg text-somidam rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0"
-          >가맹안내</a>
-        </li>
-      </ul>
+      <div class="flex space-x-14">
+        <div class="text-somidam font-bold">
+          브랜드
+        </div>
+        <div class="text-somidam font-bold">
+          메뉴
+        </div>
+        <div class="text-somidam font-bold">
+          창업안내
+        </div>
+        <div class="text-somidam font-bold">
+          가맹안내
+        </div>
+        <div class="flex space-x-3">
+          <img
+            src="../assets/facebook.svg"
+            alt="facebook"
+            width="12"
+          >
+          <img
+            src="../assets/instagram.svg"
+            alt="instagram"
+            width="12"
+          >
+          <img
+            src="../assets/youtube.svg"
+            alt="youtube"
+            width="12"
+          >
+          <!-- 네이버 svg 만들어야 함 -->
+          <img
+            src="../assets/facebook.svg"
+            alt="naver"
+            width="12"
+          >
+          <img
+            src="../assets/tiktok.svg"
+            alt="tiktok"
+            width="12"
+          >
+        </div>
+      </div>
     </div>
-  </nav>
+  </div>
 </template>
