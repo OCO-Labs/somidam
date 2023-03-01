@@ -1,15 +1,11 @@
 <script setup>
+import FirstBanner from '../components/FirstBanner.vue';
 import NavScroll from '../components/NavScroll.vue';
+
 </script>
 
 <template>
-  <div>
-    <img
-      src="../assets/somidam_logo.svg"
-      class="object-contain h-screen w-full bg-black mx-auto"
-    >
-  </div>
-  
+  <FirstBanner />
   <NavScroll />
   <div>
     <img
@@ -17,12 +13,14 @@ import NavScroll from '../components/NavScroll.vue';
       class="object-contain h-96 w-full bg-white mx-auto"
     >
   </div>
+
   <div>
     <img
       src="../assets/somidam_logo.svg"
       class="object-contain h-96 w-full bg-white mx-auto"
     >
   </div>
+  
   <div>
     <img
       src="../assets/somidam_logo.svg"
