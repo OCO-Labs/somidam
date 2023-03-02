@@ -1,8 +1,14 @@
 <script setup>
+import FirstBanner from '../components/FirstBanner.vue';
+import NavScroll from '../components/NavScroll.vue';
+import SecondBanner from '../components/SecondBanner.vue';
+
 </script>
 
 <template>
-  <div>여기다가 메인페이지 만들면 되용 하트하트 뿅뿅ㅎㅎ</div>
+  <FirstBanner />
+  <NavScroll />
+  <SecondBanner />
 </template>
 
 <!-- css style을 따로 정의할 땐 꼭 scoped 로!! -->
