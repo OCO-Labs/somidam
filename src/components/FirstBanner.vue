@@ -1,9 +1,7 @@
 <script>
 export default {
   name: 'FirstBanner',
-};
-
-
+}
 </script>
 
 <template>

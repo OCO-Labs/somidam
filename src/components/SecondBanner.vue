@@ -1,7 +1,7 @@
 <script>
 export default{
   name: 'SecondBanner',
-};
+}
 </script>
 <template>
   <div>
