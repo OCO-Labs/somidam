@@ -22,32 +22,32 @@
         </div>
         <div class="flex space-x-3">
           <img
-            src="../assets/facebook.svg"
+            src="../assets/sns/facebook.svg"
             alt="facebook"
             width="12"
             height="12"
           >
           <img
-            src="../assets/instagram.svg"
+            src="../assets/sns/instagram.svg"
             alt="instagram"
             width="12"
             height="12"
           >
           <img
-            src="../assets/youtube.svg"
+            src="../assets/sns/youtube.svg"
             alt="youtube"
             width="12"
             height="12"
           >
           <!-- 네이버 svg 만들어야 함 -->
           <img
-            src="../assets/facebook.svg"
+            src="../assets/sns/naver.svg"
             alt="naver"
             width="12"
             height="12"
           >
           <img
-            src="../assets/tiktok.svg"
+            src="../assets/sns/tiktok.svg"
             alt="tiktok"
             width="12"
             height="12"
