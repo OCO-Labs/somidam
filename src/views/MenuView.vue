@@ -1,11 +1,6 @@
 <script>
-import DessertMenuCard from '../components/DessertMenuCard.vue'
-
 export default ({
   name: 'MenuView',
-  components: {
-    DessertMenuCard
-  }
 })
 </script>
 
@@ -22,7 +17,7 @@ export default ({
       <div class="text-somidam text-9xl font-bold mt-3">
         MENU
       </div>
-      <div class="text-somidam text-2xl">
+      <div class="text-somidam text-xl font-semibold">
         찾으시는 메뉴를 클릭해서 확인해보세요
       </div>
     </div>
@@ -34,21 +29,336 @@ export default ({
     </div>
     <!-- 후우.. -->
     <div class="grid md:grid-cols-3 sm:grid-cols-1 gap-4 2xl:mx-40 xl:mx-14 lg:mx-4 mt-10 mb-32">
-      <DessertMenuCard
-        dessert-name="소미담 모듬떡 세트"
-        dessert-price="16,800원"
-        dessert-image="1.jpg"
-      />
-      <DessertMenuCard
-        dessert-name="자색 고구마 크림떡"
-        dessert-price="16,800원"
-        dessert-image="2.jpg"
-      />
-      <DessertMenuCard
-        dessert-name="카스테라 옥수수 크림떡"
-        dessert-price="16,800원"
-        dessert-image="3.jpg"
-      />
+      <div class="overflow-hidden shadow-lg hover:scale-105 bg-white transform transition duration-100">
+        <img
+          class="w-full"
+          src="../assets/dessert/1.jpg"
+          alt=""
+        >
+        <div class="flex flex-col items-center py-10">
+          <div class="font-bold xl:text-3xl lg:text-2xl text-somidam mb-1">
+            소미담 모듬떡 세트
+          </div>
+          <span class="text-gray-400 text-base mb-6">
+            16,800원
+          </span>
+          <router-link
+            to="/"
+            type="button"
+            class="text-somidam bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
+          >
+            자세히보기
+          </router-link>
+        </div>
+      </div>
+      <div class="overflow-hidden shadow-lg hover:scale-105 bg-white transform transition duration-100">
+        <img
+          class="w-full"
+          src="../assets/dessert/2.jpg"
+          alt=""
+        >
+        <div class="flex flex-col items-center py-10">
+          <div class="font-bold xl:text-3xl lg:text-2xl text-somidam mb-1">
+            자색 고구마 크림떡
+          </div>
+          <span class="text-gray-400 text-base mb-6">
+            16,800원
+          </span>
+          <router-link
+            to="/"
+            type="button"
+            class="text-somidam bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
+          >
+            자세히보기
+          </router-link>
+        </div>
+      </div>
+      <div class="overflow-hidden shadow-lg hover:scale-105 bg-white transform transition duration-100">
+        <img
+          class="w-full"
+          src="../assets/dessert/3.jpg"
+          alt=""
+        >
+        <div class="flex flex-col items-center py-10">
+          <div class="font-bold xl:text-3xl lg:text-2xl text-somidam mb-1">
+            카스테라 옥수수 크림떡 
+          </div>
+          <span class="text-gray-400 text-base mb-6">
+            16,800원
+          </span>
+          <router-link
+            to="/"
+            type="button"
+            class="text-somidam bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
+          >
+            자세히보기
+          </router-link>
+        </div>
+      </div>
+      <div class="overflow-hidden shadow-lg hover:scale-105 bg-white transform transition duration-100">
+        <img
+          class="w-full"
+          src="../assets/dessert/4.jpg"
+          alt=""
+        >
+        <div class="flex flex-col items-center py-10">
+          <div class="font-bold xl:text-3xl lg:text-2xl text-somidam mb-1">
+            쑥 두텁떡
+          </div>
+          <span class="text-gray-400 text-base mb-6">
+            14,400원
+          </span>
+          <router-link
+            to="/"
+            type="button"
+            class="text-somidam bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
+          >
+            자세히보기
+          </router-link>
+        </div>
+      </div>
+      <div class="overflow-hidden shadow-lg hover:scale-105 bg-white transform transition duration-100">
+        <img
+          class="w-full"
+          src="../assets/dessert/5.jpg"
+          alt=""
+        >
+        <div class="flex flex-col items-center py-10">
+          <div class="font-bold xl:text-3xl lg:text-2xl text-somidam mb-1">
+            흑임자 인절미
+          </div>
+          <span class="text-gray-400 text-base mb-6">
+            18,000원
+          </span>
+          <router-link
+            to="/"
+            type="button"
+            class="text-somidam bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
+          >
+            자세히보기
+          </router-link>
+        </div>
+      </div>
+      <div class="overflow-hidden shadow-lg hover:scale-105 bg-white transform transition duration-100">
+        <img
+          class="w-full"
+          src="../assets/dessert/6.jpg"
+          alt=""
+        >
+        <div class="flex flex-col items-center py-10">
+          <div class="font-bold xl:text-3xl lg:text-2xl text-somidam mb-1">
+            이북식 인절미
+          </div>
+          <span class="text-gray-400 text-base mb-6">
+            16,800원
+          </span>
+          <router-link
+            to="/"
+            type="button"
+            class="text-somidam bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
+          >
+            자세히보기
+          </router-link>
+        </div>
+      </div>
+      <div class="overflow-hidden shadow-lg hover:scale-105 bg-white transform transition duration-100">
+        <img
+          class="w-full"
+          src="../assets/dessert/7.jpg"
+          alt=""
+        >
+        <div class="flex flex-col items-center py-10">
+          <div class="font-bold xl:text-3xl lg:text-2xl text-somidam mb-1">
+            카스테라 호박 인절미
+          </div>
+          <span class="text-gray-400 text-base mb-6">
+            16,800원
+          </span>
+          <router-link
+            to="/"
+            type="button"
+            class="text-somidam bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
+          >
+            자세히보기
+          </router-link>
+        </div>
+      </div>
+      <div class="overflow-hidden shadow-lg hover:scale-105 bg-white transform transition duration-100">
+        <img
+          class="w-full"
+          src="../assets/dessert/8.jpg"
+          alt=""
+        >
+        <div class="flex flex-col items-center py-10">
+          <div class="font-bold xl:text-3xl lg:text-2xl text-somidam mb-1">
+            사색기정떡
+          </div>
+          <span class="text-gray-400 text-base mb-6">
+            16,800원
+          </span>
+          <router-link
+            to="/"
+            type="button"
+            class="text-somidam bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
+          >
+            자세히보기
+          </router-link>
+        </div>
+      </div>
+      <div class="overflow-hidden shadow-lg hover:scale-105 bg-white transform transition duration-100">
+        <img
+          class="w-full"
+          src="../assets/dessert/9.jpg"
+          alt=""
+        >
+        <div class="flex flex-col items-center py-10">
+          <div class="font-bold xl:text-3xl lg:text-2xl text-somidam mb-1">
+            콩고물 인절미
+          </div>
+          <span class="text-gray-400 text-base mb-6">
+            16,800원
+          </span>
+          <router-link
+            to="/"
+            type="button"
+            class="text-somidam bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
+          >
+            자세히보기
+          </router-link>
+        </div>
+      </div>
+      <div class="overflow-hidden shadow-lg hover:scale-105 bg-white transform transition duration-100">
+        <img
+          class="w-full"
+          src="../assets/dessert/10.jpg"
+          alt=""
+        >
+        <div class="flex flex-col items-center py-10">
+          <div class="font-bold xl:text-3xl lg:text-2xl text-somidam mb-1">
+            꿀떡
+          </div>
+          <span class="text-gray-400 text-base mb-6">
+            16,800원
+          </span>
+          <router-link
+            to="/"
+            type="button"
+            class="text-somidam bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
+          >
+            자세히보기
+          </router-link>
+        </div>
+      </div>
+      <div class="overflow-hidden shadow-lg hover:scale-105 bg-white transform transition duration-100">
+        <img
+          class="w-full"
+          src="../assets/dessert/11.jpg"
+          alt=""
+        >
+        <div class="flex flex-col items-center py-10">
+          <div class="font-bold xl:text-3xl lg:text-2xl text-somidam mb-1">
+            쑥콩찰떡
+          </div>
+          <span class="text-gray-400 text-base mb-6">
+            16,800원
+          </span>
+          <router-link
+            to="/"
+            type="button"
+            class="text-somidam bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
+          >
+            자세히보기
+          </router-link>
+        </div>
+      </div>
+      <div class="overflow-hidden shadow-lg hover:scale-105 bg-white transform transition duration-100">
+        <img
+          class="w-full"
+          src="../assets/dessert/12.jpg"
+          alt=""
+        >
+        <div class="flex flex-col items-center py-10">
+          <div class="font-bold xl:text-3xl lg:text-2xl text-somidam mb-1">
+            바람떡
+          </div>
+          <span class="text-gray-400 text-base mb-6">
+            16,800원
+          </span>
+          <router-link
+            to="/"
+            type="button"
+            class="text-somidam bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
+          >
+            자세히보기
+          </router-link>
+        </div>
+      </div>
+      <div class="overflow-hidden shadow-lg hover:scale-105 bg-white transform transition duration-100">
+        <img
+          class="w-full"
+          src="../assets/dessert/13.jpg"
+          alt=""
+        >
+        <div class="flex flex-col items-center py-10">
+          <div class="font-bold xl:text-3xl lg:text-2xl text-somidam mb-1">
+            찹쌀 약밥
+          </div>
+          <span class="text-gray-400 text-base mb-6">
+            16,800원
+          </span>
+          <router-link
+            to="/"
+            type="button"
+            class="text-somidam bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
+          >
+            자세히보기
+          </router-link>
+        </div>
+      </div>
+      <div class="overflow-hidden shadow-lg hover:scale-105 bg-white transform transition duration-100">
+        <img
+          class="w-full"
+          src="../assets/dessert/14.jpg"
+          alt=""
+        >
+        <div class="flex flex-col items-center py-10">
+          <div class="font-bold xl:text-3xl lg:text-2xl text-somidam mb-1">
+            통팥 앙금 절편
+          </div>
+          <span class="text-gray-400 text-base mb-6">
+            16,800원
+          </span>
+          <router-link
+            to="/"
+            type="button"
+            class="text-somidam bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
+          >
+            자세히보기
+          </router-link>
+        </div>
+      </div>
+      <div class="overflow-hidden shadow-lg hover:scale-105 bg-white transform transition duration-100">
+        <img
+          class="w-full"
+          src="../assets/dessert/15.jpg"
+          alt=""
+        >
+        <div class="flex flex-col items-center py-10">
+          <div class="font-bold xl:text-3xl lg:text-2xl text-somidam mb-1">
+            제주 오메기 떡
+          </div>
+          <span class="text-gray-400 text-base mb-6">
+            16,800원
+          </span>
+          <router-link
+            to="/"
+            type="button"
+            class="text-somidam bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
+          >
+            자세히보기
+          </router-link>
+        </div>
+      </div>
     </div>
   </div>
 </template>

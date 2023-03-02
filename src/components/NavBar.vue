@@ -7,7 +7,7 @@
         width="110"
         height="110"
       >
-      <div class="flex space-x-14">
+      <div class="flex md:space-x-14 sm:space-x-8">
         <div class="text-somidam font-bold">
           브랜드
         </div>
