@@ -1,44 +1,14 @@
 <script setup>
 import FirstBanner from '../components/FirstBanner.vue';
 import NavScroll from '../components/NavScroll.vue';
+import SecondBanner from '../components/SecondBanner.vue';
 
 </script>
 
 <template>
   <FirstBanner />
   <NavScroll />
-  <div>
-    <img
-      src="../assets/somidam_logo.svg"
-      class="object-contain h-96 w-full bg-white mx-auto"
-    >
-  </div>
-
-  <div>
-    <img
-      src="../assets/somidam_logo.svg"
-      class="object-contain h-96 w-full bg-white mx-auto"
-    >
-  </div>
-  
-  <div>
-    <img
-      src="../assets/somidam_logo.svg"
-      class="object-contain h-96 w-full bg-black mx-auto"
-    >
-  </div>
-  <div>
-    <img
-      src="../assets/somidam_logo.svg"
-      class="object-contain h-96 w-full bg-black mx-auto"
-    >
-  </div>
-  <div>
-    <img
-      src="../assets/somidam_logo.svg"
-      class="object-contain h-96 w-full bg-black mx-auto"
-    >
-  </div>
+  <SecondBanner />
 </template>
 
 <!-- css style을 따로 정의할 땐 꼭 scoped 로!! -->

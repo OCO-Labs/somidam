@@ -10,22 +10,19 @@ export default {
   <nav>
     <div class="flex flex-col items-end space-y-4 pb-8 fixed top-96 left-0 right-10 ">
       <img
-        class="navmenu   " 
-        src="../assets/logo.svg"
+        class="navmenu bg-[#946045]"
+        src="../assets/bars2.svg"
         alt=""
       >
       <img
-        class="navmenu "
-        src="../assets/logo.svg"
+        class="navmenu bg-[#946045]"
+        src="../assets/bars3.svg"
         alt=""
       >
       <img
-        class="navmenu "
-        src="../assets/logo.svg"
+        class="navmenu bg-[#946045]"
+        src="../assets/bars4.svg"
         alt=""
-     
-        
-        div
       >
     </div>
   </nav>
@@ -35,6 +32,8 @@ export default {
 .navmenu {
 width: 70px;
 height: 70px;
+border-radius: 50%;
+
 }
 
 
