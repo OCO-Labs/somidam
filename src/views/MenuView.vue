@@ -15,6 +15,8 @@ export default ({
     <div class="flex flex-col items-center">
       <img
         class="mt-32"
+
+        loading="lazy"
         src="../assets/logo.svg"
         alt="Somidam Logo"
         width="150"
@@ -38,6 +40,7 @@ export default ({
       <div class="overflow-hidden shadow-lg hover:scale-105 bg-white transform transition duration-100">
         <img
           class="w-full"
+          loading="lazy"
           src="../assets/dessert/1.jpg"
           alt=""
         >
@@ -60,6 +63,7 @@ export default ({
       <div class="overflow-hidden shadow-lg hover:scale-105 bg-white transform transition duration-100">
         <img
           class="w-full"
+          loading="lazy"
           src="../assets/dessert/2.jpg"
           alt=""
         >
@@ -82,6 +86,7 @@ export default ({
       <div class="overflow-hidden shadow-lg hover:scale-105 bg-white transform transition duration-100">
         <img
           class="w-full"
+          loading="lazy"
           src="../assets/dessert/3.jpg"
           alt=""
         >
@@ -104,6 +109,7 @@ export default ({
       <div class="overflow-hidden shadow-lg hover:scale-105 bg-white transform transition duration-100">
         <img
           class="w-full"
+          loading="lazy"
           src="../assets/dessert/4.jpg"
           alt=""
         >
@@ -126,6 +132,7 @@ export default ({
       <div class="overflow-hidden shadow-lg hover:scale-105 bg-white transform transition duration-100">
         <img
           class="w-full"
+          loading="lazy"
           src="../assets/dessert/5.jpg"
           alt=""
         >
@@ -148,6 +155,7 @@ export default ({
       <div class="overflow-hidden shadow-lg hover:scale-105 bg-white transform transition duration-100">
         <img
           class="w-full"
+          loading="lazy"
           src="../assets/dessert/6.jpg"
           alt=""
         >
@@ -170,6 +178,7 @@ export default ({
       <div class="overflow-hidden shadow-lg hover:scale-105 bg-white transform transition duration-100">
         <img
           class="w-full"
+          loading="lazy"
           src="../assets/dessert/7.jpg"
           alt=""
         >
@@ -192,6 +201,7 @@ export default ({
       <div class="overflow-hidden shadow-lg hover:scale-105 bg-white transform transition duration-100">
         <img
           class="w-full"
+          loading="lazy"
           src="../assets/dessert/8.jpg"
           alt=""
         >
@@ -214,6 +224,7 @@ export default ({
       <div class="overflow-hidden shadow-lg hover:scale-105 bg-white transform transition duration-100">
         <img
           class="w-full"
+          loading="lazy"
           src="../assets/dessert/9.jpg"
           alt=""
         >
@@ -236,6 +247,7 @@ export default ({
       <div class="overflow-hidden shadow-lg hover:scale-105 bg-white transform transition duration-100">
         <img
           class="w-full"
+          loading="lazy"
           src="../assets/dessert/10.jpg"
           alt=""
         >
@@ -258,6 +270,7 @@ export default ({
       <div class="overflow-hidden shadow-lg hover:scale-105 bg-white transform transition duration-100">
         <img
           class="w-full"
+          loading="lazy"
           src="../assets/dessert/11.jpg"
           alt=""
         >
@@ -280,6 +293,7 @@ export default ({
       <div class="overflow-hidden shadow-lg hover:scale-105 bg-white transform transition duration-100">
         <img
           class="w-full"
+          loading="lazy"
           src="../assets/dessert/12.jpg"
           alt=""
         >
@@ -302,6 +316,7 @@ export default ({
       <div class="overflow-hidden shadow-lg hover:scale-105 bg-white transform transition duration-100">
         <img
           class="w-full"
+          loading="lazy"
           src="../assets/dessert/13.jpg"
           alt=""
         >
@@ -324,6 +339,7 @@ export default ({
       <div class="overflow-hidden shadow-lg hover:scale-105 bg-white transform transition duration-100">
         <img
           class="w-full"
+          loading="lazy"
           src="../assets/dessert/14.jpg"
           alt=""
         >
@@ -346,6 +362,7 @@ export default ({
       <div class="overflow-hidden shadow-lg hover:scale-105 bg-white transform transition duration-100">
         <img
           class="w-full"
+          loading="lazy"
           src="../assets/dessert/15.jpg"
           alt=""
         >
