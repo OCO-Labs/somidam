@@ -7,19 +7,31 @@
         width="110"
         height="110"
       >
-      <div class="flex md:space-x-14 sm:space-x-8">
-        <div class="text-somidam font-bold">
+      <div class="flex md:space-x-10 sm:space-x-8">
+        <router-link
+          to="/"
+          class="text-somidam font-bold hover:bg-gray-100 rounded px-2 py-2"
+        >
           브랜드
-        </div>
-        <div class="text-somidam font-bold">
+        </router-link>
+        <router-link
+          to="/menu"
+          class="text-somidam font-bold hover:bg-gray-100 rounded px-2 py-2"
+        >
           메뉴
-        </div>
-        <div class="text-somidam font-bold">
+        </router-link>
+        <router-link
+          to="/start"
+          class="text-somidam font-bold hover:bg-gray-100 rounded px-2 py-2"
+        >
           창업안내
-        </div>
-        <div class="text-somidam font-bold">
+        </router-link>
+        <router-link
+          to="/join"
+          class="text-somidam font-bold hover:bg-gray-100 rounded px-2 py-2"
+        >
           가맹안내
-        </div>
+        </router-link>
         <div class="flex space-x-3">
           <img
             src="../assets/sns/facebook.svg"
