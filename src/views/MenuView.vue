@@ -41,7 +41,7 @@ export default ({
         <img
           class="w-full"
           loading="lazy"
-          src="../assets/dessert/1.jpg"
+          src="../assets/dessert/1.webp"
           alt=""
         >
         <div class="flex flex-col items-center py-10">
@@ -64,7 +64,7 @@ export default ({
         <img
           class="w-full"
           loading="lazy"
-          src="../assets/dessert/2.jpg"
+          src="../assets/dessert/2.webp"
           alt=""
         >
         <div class="flex flex-col items-center py-10">
@@ -87,7 +87,7 @@ export default ({
         <img
           class="w-full"
           loading="lazy"
-          src="../assets/dessert/3.jpg"
+          src="../assets/dessert/3.webp"
           alt=""
         >
         <div class="flex flex-col items-center py-10">
@@ -110,7 +110,7 @@ export default ({
         <img
           class="w-full"
           loading="lazy"
-          src="../assets/dessert/4.jpg"
+          src="../assets/dessert/4.webp"
           alt=""
         >
         <div class="flex flex-col items-center py-10">
@@ -133,7 +133,7 @@ export default ({
         <img
           class="w-full"
           loading="lazy"
-          src="../assets/dessert/5.jpg"
+          src="../assets/dessert/5.webp"
           alt=""
         >
         <div class="flex flex-col items-center py-10">
@@ -156,7 +156,7 @@ export default ({
         <img
           class="w-full"
           loading="lazy"
-          src="../assets/dessert/6.jpg"
+          src="../assets/dessert/6.webp"
           alt=""
         >
         <div class="flex flex-col items-center py-10">
@@ -179,7 +179,7 @@ export default ({
         <img
           class="w-full"
           loading="lazy"
-          src="../assets/dessert/7.jpg"
+          src="../assets/dessert/7.webp"
           alt=""
         >
         <div class="flex flex-col items-center py-10">
@@ -202,7 +202,7 @@ export default ({
         <img
           class="w-full"
           loading="lazy"
-          src="../assets/dessert/8.jpg"
+          src="../assets/dessert/8.webp"
           alt=""
         >
         <div class="flex flex-col items-center py-10">
@@ -225,7 +225,7 @@ export default ({
         <img
           class="w-full"
           loading="lazy"
-          src="../assets/dessert/9.jpg"
+          src="../assets/dessert/9.webp"
           alt=""
         >
         <div class="flex flex-col items-center py-10">
@@ -248,7 +248,7 @@ export default ({
         <img
           class="w-full"
           loading="lazy"
-          src="../assets/dessert/10.jpg"
+          src="../assets/dessert/10.webp"
           alt=""
         >
         <div class="flex flex-col items-center py-10">
@@ -271,7 +271,7 @@ export default ({
         <img
           class="w-full"
           loading="lazy"
-          src="../assets/dessert/11.jpg"
+          src="../assets/dessert/11.webp"
           alt=""
         >
         <div class="flex flex-col items-center py-10">
@@ -294,7 +294,7 @@ export default ({
         <img
           class="w-full"
           loading="lazy"
-          src="../assets/dessert/12.jpg"
+          src="../assets/dessert/12.webp"
           alt=""
         >
         <div class="flex flex-col items-center py-10">
@@ -317,7 +317,7 @@ export default ({
         <img
           class="w-full"
           loading="lazy"
-          src="../assets/dessert/13.jpg"
+          src="../assets/dessert/13.webp"
           alt=""
         >
         <div class="flex flex-col items-center py-10">
@@ -340,7 +340,7 @@ export default ({
         <img
           class="w-full"
           loading="lazy"
-          src="../assets/dessert/14.jpg"
+          src="../assets/dessert/14.webp"
           alt=""
         >
         <div class="flex flex-col items-center py-10">
@@ -363,7 +363,7 @@ export default ({
         <img
           class="w-full"
           loading="lazy"
-          src="../assets/dessert/15.jpg"
+          src="../assets/dessert/15.webp"
           alt=""
         >
         <div class="flex flex-col items-center py-10">
