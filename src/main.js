@@ -4,6 +4,7 @@ import router from './router'
 import './index.css'
 import { initializeApp } from "firebase/app"
 import { getAnalytics } from "firebase/analytics"
+import 'aos/dist/aos.css'
 
 const firebaseConfig = {
     apiKey: "AIzaSyAOS4SOeiPkFkSE-nfEplN0VU_wXQ6Bj6Y",
