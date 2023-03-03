@@ -1,10 +1,16 @@
 <script>
+import NavBar from '../components/NavBar.vue'
+
 export default ({
   name: 'MenuView',
+  components: {
+    NavBar
+  }
 })
 </script>
 
 <template>
+  <NavBar />
   <div class="container mx-auto">
     <div class="flex flex-col items-center">
       <img
