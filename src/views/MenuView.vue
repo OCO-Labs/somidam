@@ -28,7 +28,7 @@ export default ({
       <hr class="2xl:w-[52rem] xl:w-[49rem] lg:w-[38rem] hidden md:block md:w-1/2 h-0.5 bg-somidam">
     </div>
     <!-- 후우.. -->
-    <div class="grid md:grid-cols-3 sm:grid-cols-1 gap-4 2xl:mx-40 xl:mx-14 lg:mx-4 mt-10 mb-32">
+    <div class="grid md:grid-cols-3 sm:grid-cols-1 gap-8 2xl:mx-40 xl:mx-14 lg:mx-4 mt-10 mb-32">
       <div class="overflow-hidden shadow-lg hover:scale-105 bg-white transform transition duration-100">
         <img
           class="w-full"
