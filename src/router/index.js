@@ -2,6 +2,10 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
+  scrollBehavior() {
+    // 언제나 페이지 제일 위로 이동하기
+    return { top: 0 }
+  },
   routes: [
     {
       path: '/',
