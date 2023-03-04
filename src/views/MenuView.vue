@@ -22,21 +22,21 @@ export default ({
         width="150"
         height="150"
       >
-      <div class="text-somidam text-9xl font-bold mt-3">
+      <div class="text-somidam sm:text-9xl text-8xl font-bold mt-3">
         MENU
       </div>
-      <div class="text-somidam text-xl font-semibold">
+      <div class="text-somidam sm:text-xl text-lg font-semibold">
         찾으시는 메뉴를 클릭해서 확인해보세요
       </div>
     </div>
     <div class="flex items-center justify-center space-x-6 mt-28">
-      <div class="text-somidam text-5xl font-bold">
+      <div class="text-somidam sm:text-5xl text-3xl font-bold">
         DESSERT MENU
       </div>
       <hr class="2xl:w-[52rem] xl:w-[49rem] lg:w-[38rem] hidden md:block md:w-1/2 h-0.5 bg-somidam">
     </div>
     <!-- 후우.. -->
-    <div class="grid md:grid-cols-3 sm:grid-cols-1 gap-8 2xl:mx-40 xl:mx-14 lg:mx-4 mt-10 mb-32">
+    <div class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-8 2xl:mx-40 xl:mx-14 lg:mx-4 mx-5 mt-10 mb-32">
       <div class="overflow-hidden shadow-lg hover:scale-105 bg-white transform transition duration-100">
         <img
           class="w-full"

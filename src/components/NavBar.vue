@@ -1,38 +1,40 @@
 <template>
   <div class="border-b">
-    <div class="container flex flex-wrap items-center justify-between mx-auto my-4">
+    <div class="container flex sm:flex-row flex-col items-center justify-between sm:mx-auto sm:px-0 px-4 my-4">
       <img
         src="../assets/logo.svg"
         alt="Somidam Logo"
         width="110"
         height="110"
       >
-      <div class="flex md:space-x-10 sm:space-x-8">
-        <router-link
-          to="/"
-          class="text-somidam font-bold hover:bg-gray-100 rounded px-2 py-2"
-        >
-          브랜드
-        </router-link>
-        <router-link
-          to="/menu"
-          class="text-somidam font-bold hover:bg-gray-100 rounded px-2 py-2"
-        >
-          메뉴
-        </router-link>
-        <router-link
-          to="/start"
-          class="text-somidam font-bold hover:bg-gray-100 rounded px-2 py-2"
-        >
-          창업안내
-        </router-link>
-        <router-link
-          to="/join"
-          class="text-somidam font-bold hover:bg-gray-100 rounded px-2 py-2"
-        >
-          가맹안내
-        </router-link>
-        <div class="flex space-x-3">
+      <div class="flex flex-col sm:flex-row md:space-x-6 sm:space-x-8">
+        <div class="sm:pt-0 pt-4 md:space-x-6 sm:space-x-3">
+          <router-link
+            to="/"
+            class="text-somidam font-bold hover:bg-gray-100 rounded px-2 py-2"
+          >
+            브랜드
+          </router-link>
+          <router-link
+            to="/menu"
+            class="text-somidam font-bold hover:bg-gray-100 rounded px-2 py-2"
+          >
+            메뉴
+          </router-link>
+          <router-link
+            to="/start"
+            class="text-somidam font-bold hover:bg-gray-100 rounded px-2 py-2"
+          >
+            창업안내
+          </router-link>
+          <router-link
+            to="/join"
+            class="text-somidam font-bold hover:bg-gray-100 rounded px-2 py-2"
+          >
+            가맹안내
+          </router-link>
+        </div>
+        <div class="flex justify-between space-x-3 sm:pt-0 pt-4">
           <img
             src="../assets/sns/facebook.svg"
             alt="facebook"
