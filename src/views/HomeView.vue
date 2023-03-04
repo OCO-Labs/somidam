@@ -1,13 +1,13 @@
 <script>
 import FirstBanner from '../components/FirstBanner.vue';
-// import NavScroll from '../components/NavScroll.vue';
+import NavScroll from '../components/NavScroll.vue';
 import SecondBanner from '../components/SecondBanner.vue';
 import NavBar from '../components/NavBar.vue';
 
 export default {
   components: {
     FirstBanner,
-    // NavScroll,
+    NavScroll,
     SecondBanner,
     NavBar
   }
@@ -17,6 +17,7 @@ export default {
 
 <template>
   <FirstBanner />
+  <NavScroll />
   <NavBar />
   <SecondBanner />
 </template>
