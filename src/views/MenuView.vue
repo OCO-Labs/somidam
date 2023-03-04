@@ -30,7 +30,7 @@ export default ({
       </div>
     </div>
     <div class="flex items-center justify-center space-x-6 mt-28">
-      <div class="text-somidam sm:text-5xl text-3xl font-bold">
+      <div class="text-somidam lg:text-5xl sm:text-4xl text-3xl font-bold">
         DESSERT MENU
       </div>
       <hr class="2xl:w-[52rem] xl:w-[49rem] lg:w-[38rem] hidden md:block md:w-1/2 h-0.5 bg-somidam">
