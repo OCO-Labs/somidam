@@ -8,10 +8,10 @@
         height="110"
       >
       <div class="flex flex-col sm:flex-row md:space-x-6 sm:space-x-8">
-        <div class="sm:pt-0 pt-4 md:space-x-6 sm:space-x-3">
+        <div class="flex sm:pt-0 pt-4 md:space-x-6 sm:space-x-3">
           <router-link
             to="/"
-            class="text-somidam font-bold hover:bg-gray-100 rounded px-2 py-2"
+            class="text-somidam font-bold hover:bg-gray-100 rounded px-4 py-2"
           >
             브랜드
           </router-link>
