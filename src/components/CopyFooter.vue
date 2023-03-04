@@ -1,16 +1,16 @@
 <template>
-  <div class="bg-gray-200 h-52 px-28 pt-10">
-    <div class="flex justify-between">
+  <div class="bg-gray-200 md:px-28 px-4 py-10">
+    <div class="flex xl:flex-row sm:flex-col flex-col justify-between">
       <img
         src="../assets/logo.svg"
         alt="Somidam Logo"
         width="180"
         height="180"
       >
-      <div class="flex flex-col w-2/3 text-sm self-center">
+      <div class="flex flex-col xl:w-2/3 text-sm xl:self-center xl:pt-0 pt-2">
         <div class="flex">
           <div class="font-bold">
-            Compnay/CEO
+            Company/CEO
           </div>
           <div class="mx-2">
             |
@@ -39,7 +39,7 @@
         </div>
         <div class="flex">
           <div class="font-bold">
-            Registraion Number
+            Registration Number
           </div>
           <div class="mx-2">
             |
@@ -47,7 +47,7 @@
           <div>719 - 86 - 00092</div>
         </div>
       </div>
-      <div class="flex flex-col items-end">
+      <div class="flex flex-col items-end lg:pt-0 pt-2">
         <div class="text-2xl font-bold mb-2">
           FOLLOW US
         </div>
