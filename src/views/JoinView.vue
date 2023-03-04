@@ -41,7 +41,7 @@ export default {
       </div>
     </div>
   </div>
-  <div class="lg:mx-64 sm:mx-10 mx-2 mt-20">
+  <div class="2xl:mx-64 xl:50 lg:mx-20 sm:mx-10 mx-2 mt-20">
     <div class="flex text-lg mb-3 justify-between">
       <div class="flex">
         <div class="font-bold">
