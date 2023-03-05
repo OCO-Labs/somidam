@@ -4,6 +4,7 @@ import router from './router'
 import './index.css'
 import { initializeApp } from "firebase/app"
 import { getAnalytics } from "firebase/analytics"
+import { getFirestore } from "firebase/firestore"
 import 'aos/dist/aos.css'
 
 const firebaseConfig = {
@@ -20,6 +21,9 @@ const firebase = initializeApp(firebaseConfig)
 // eslint-disable-next-line no-unused-vars
 const analytics = getAnalytics(firebase)
 const app = createApp(App)
+const db = getFirestore(firebase)
+
+export { db }
 
 app.use(router)
 

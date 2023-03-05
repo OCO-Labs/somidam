@@ -1,10 +1,7 @@
 <script setup>
 function buttonHandler() {
   window.location.href = '#'
-        }   
-
-   
-
+}   
 </script>
 
 

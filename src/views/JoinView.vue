@@ -1,5 +1,7 @@
 <script>
 import NavBar from '../components/NavBar.vue'
+import { addDoc, collection } from 'firebase/firestore'
+import { db } from '@/main'
 
 export default {
   name: 'JoinView',
@@ -8,9 +10,63 @@ export default {
   },
   data() {
     return {
+      name: '',
+      gender: '',
+      age: '',
+      startTell: '',
+      endTell: '',
+      startEmail: '',
+      endEmail: '',
+      applicationReasons: [],
+      applicationReasonsEtc: '',
+      applicationReasonsEtcBtn: true,
+      livingStartPlace: '',
+      livingEndPlace: '',
+      joinStartPlace: '',
+      joinEndPlace: '',
       desiredTimed: "",
-      investmentCosts: ""
+      desiredTimedEtc: '',
+      desiredTimedEtcBtn: true,
+      desiredDistrict: [],
+      desiredDistrictEtc: '',
+      desiredDistrictEtcBtn: true,
+      investmentCosts: "",
+      inquiryContent: "",
     }
+  },
+  watch: {
+    desiredTimed () {
+      this.desiredTimedEtc = ''
+      this.desiredTimedEtcBtn = true
+    }
+  },
+  methods: {
+    async saveJoin () {
+      const docRef = await addDoc(collection(db, 'join'), {
+        name: this.name,
+        gender: this.gender,
+        age: this.age,
+        startTell: this.startTell,
+        endTell: this.endTell,
+        startEmail: this.startEmail,
+        endEmail: this.endEmail,
+        applicationReasons: this.applicationReasons,
+        applicationReasonsEtc: this.applicationReasonsEtc,
+        livingStartPlace: this.livingStartPlace,
+        livingEndPlace: this.livingEndPlace,
+        joinStartPlace: this.joinStartPlace,
+        joinEndPlace: this.joinEndPlace,
+        desiredTimed: this.desiredTimed,
+        desiredTimedEtc: this.desiredTimedEtc,
+        desiredDistrict: this.desiredDistrict,
+        desiredDistrictEtc: this.desiredDistrictEtc,
+        investmentCosts: this.investmentCosts,
+        inquiryContent: this.inquiryContent,
+        created: new Date().getTime()
+      })
+      console.log('Document written with ID: ', docRef.id)
+      this.$router.push('/')
+    },
   }
 }
 </script>
@@ -66,7 +122,8 @@ export default {
             <div>*</div>
           </div>
           <input
-            type="name"
+            v-model="name"
+            type="text"
             class="form-input rounded border-gray-300 bg-gray-100 w-[20.5rem]"
           >
         </div>
@@ -77,7 +134,11 @@ export default {
             </div>
             <div>*</div>
           </div>
-          <select class="form-select rounded border-gray-300 bg-gray-100 w-64">
+          <select
+            v-model="gender"
+            placeholder="선택"
+            class="form-select rounded border-gray-300 bg-gray-100 w-64"
+          >
             <option>선택</option>
             <option>남자</option>
             <option>여자</option>
@@ -90,10 +151,17 @@ export default {
             </div>
             <div>*</div>
           </div>
-          <select class="form-select rounded border-gray-300 bg-gray-100 w-64">
+          <select
+            v-model="age"
+            class="form-select rounded border-gray-300 bg-gray-100 w-64"
+          >
             <option>선택</option>
-            <option>20</option>
-            <option>30</option>
+            <option
+              v-for="i in 100"
+              :key="i"
+            >
+              {{ i }}
+            </option>
           </select>
         </div>
       </div>
@@ -105,13 +173,17 @@ export default {
             </div>
             <div>*</div>
           </div>
-          <select class="form-select rounded border-gray-300 bg-gray-100 w-28 mr-2">
+          <select
+            v-model="startTell"
+            class="form-select rounded border-gray-300 bg-gray-100 w-28 mr-2"
+          >
             <option>선택</option>
             <option>010</option>
             <option>012</option>
           </select>
           <input
-            type="name"
+            v-model="endTell"
+            type="text"
             class="form-input rounded border-gray-300 bg-gray-100 w-[13rem]"
           >
         </div>
@@ -123,16 +195,24 @@ export default {
             <div>*</div>
           </div>
           <input
+            v-model="startEmail"
             type="text"
             class="form-input rounded border-gray-300 bg-gray-100 w-[16rem]"
           >
           <div class="mx-2 flex items-center">
             @
           </div>
-          <select class="form-select rounded border-gray-300 bg-gray-100 w-40 mr-2">
+          <select
+            v-model="endEmail"
+            class="form-select rounded border-gray-300 bg-gray-100 w-40 mr-2"
+          >
             <option>선택</option>
             <option>naver.com</option>
             <option>gmail.com</option>
+            <option>daum.net</option>
+            <option>kakao.com</option>
+            <option>outlook.com</option>
+            <option>icloud.com</option>
           </select>
         </div>
       </div>
@@ -148,6 +228,7 @@ export default {
           <div class="flex">
             <div>
               <input
+                v-model="applicationReasons"
                 class="form-checkbox mr-1"
                 type="checkbox"
                 value="페이스북"
@@ -157,6 +238,7 @@ export default {
                 class="mr-4"
               >페이스북</label>
               <input
+                v-model="applicationReasons"
                 class="form-checkbox mr-1"
                 type="checkbox"
                 value="인스타그램"
@@ -166,6 +248,7 @@ export default {
                 class="mr-4"
               >인스타그램</label>
               <input
+                v-model="applicationReasons"
                 class="form-checkbox mr-1"
                 type="checkbox"
                 value="블로그"
@@ -175,6 +258,7 @@ export default {
                 class="mr-4"
               >블로그</label>
               <input
+                v-model="applicationReasons"
                 class="form-checkbox mr-1"
                 type="checkbox"
                 value="카카오"
@@ -184,6 +268,7 @@ export default {
                 class="mr-4"
               >카카오</label>
               <input
+                v-model="applicationReasons"
                 class="form-checkbox mr-1"
                 type="checkbox"
                 value="유튜브"
@@ -193,6 +278,7 @@ export default {
                 class="mr-4"
               >유튜브</label>
               <input
+                v-model="applicationReasons"
                 class="form-checkbox mr-1"
                 type="checkbox"
                 value="네이버"
@@ -202,6 +288,7 @@ export default {
                 class="mr-4"
               >네이버</label>
               <input
+                v-model="applicationReasons"
                 class="form-checkbox mr-1"
                 type="checkbox"
                 value="지인소개"
@@ -211,6 +298,7 @@ export default {
                 class="mr-4"
               >지인소개</label>
               <input
+                v-model="applicationReasons"
                 class="form-checkbox mr-1"
                 type="checkbox"
                 value="매장방문"
@@ -220,6 +308,7 @@ export default {
                 class="mr-4"
               >매장방문</label>
               <input
+                v-model="applicationReasons"
                 class="form-checkbox mr-1"
                 type="checkbox"
                 value="창업 컨설팅"
@@ -231,17 +320,21 @@ export default {
           </div>
           <div class="mt-4">
             <input
+              v-model="applicationReasons"
               class="form-checkbox mr-1"
               type="checkbox"
               value="기타(직접 입력)"
+              @change="applicationReasonsEtcBtn = !applicationReasonsEtcBtn; applicationReasonsEtc = ''"
             >
             <label
               for="기타(직접 입력)"
               class="mr-2"
             >기타(직접 입력)</label>
             <input
+              v-model="applicationReasonsEtc"
+              :disabled="applicationReasonsEtcBtn"
               type="text"
-              class="form-input rounded border-gray-300 bg-gray-100 w-[20rem]"
+              class="form-input rounded disabled:bg-gray-200 border-gray-300 bg-gray-100 w-[20rem]"
             >
           </div>
         </div>
@@ -253,12 +346,14 @@ export default {
           </div>
         </div>
         <input
-          type="name"
+          v-model="livingStartPlace"
+          type="text"
           placeholder="시/도"
           class="form-input rounded border-gray-300 bg-gray-100 w-[10rem] mr-2"
         >
         <input
-          type="name"
+          v-model="livingEndPlace"
+          type="text"
           placeholder="구/군"
           class="form-input rounded border-gray-300 bg-gray-100 w-[13rem]"
         >
@@ -271,11 +366,13 @@ export default {
           <div>*</div>
         </div>
         <input
-          type="name"
+          v-model="joinStartPlace"
+          type="text"
           placeholder="시/도"
           class="form-input rounded border-gray-300 bg-gray-100 w-[10rem] mr-2"
         >
         <input
+          v-model="joinEndPlace"
           type="name"
           placeholder="구/군"
           class="form-input rounded border-gray-300 bg-gray-100 w-[13rem]"
@@ -323,14 +420,17 @@ export default {
           class="mr-1 self-center"
           type="radio"
           value="기타(직접 입력)"
+          @change="desiredTimedEtcBtn = !desiredTimedEtcBtn"
         >
         <label
           for="기타(직접 입력)"
           class="mr-4 self-center"
         >기타(직접 입력)</label>
         <input
+          v-model="desiredTimedEtc"
+          :disabled="desiredTimedEtcBtn"
           type="text"
-          class="form-input rounded border-gray-300 bg-gray-100 w-[20rem]"
+          class="form-input rounded disabled:bg-gray-200 border-gray-300 bg-gray-100 w-[20rem]"
         >
       </div>
       <div class="flex mr-10 mb-10">
@@ -342,6 +442,7 @@ export default {
         </div>
         <div>
           <input
+            v-model="desiredDistrict"
             class="form-checkbox mr-1"
             type="checkbox"
             value="유흥"
@@ -351,6 +452,7 @@ export default {
             class="mr-4"
           >유흥</label>
           <input
+            v-model="desiredDistrict"
             class="form-checkbox mr-1"
             type="checkbox"
             value="오피스"
@@ -360,6 +462,7 @@ export default {
             class="mr-4"
           >오피스</label>
           <input
+            v-model="desiredDistrict"
             class="form-checkbox mr-1"
             type="checkbox"
             value="학원(학원밀집지, 대학가 등)"
@@ -369,6 +472,7 @@ export default {
             class="mr-4"
           >학원(학원밀집지, 대학가 등)</label>
           <input
+            v-model="desiredDistrict"
             class="form-checkbox mr-1"
             type="checkbox"
             value="주거/아파트"
@@ -378,6 +482,7 @@ export default {
             class="mr-4"
           >주거/아파트</label>
           <input
+            v-model="desiredDistrict"
             class="form-checkbox mr-1"
             type="checkbox"
             value="쇼핑"
@@ -387,17 +492,21 @@ export default {
             class="mr-4"
           >쇼핑</label>
           <input
+            v-model="desiredDistrict"
             class="form-checkbox mr-1"
             type="checkbox"
             value="기타(직접 입력)"
+            @change="desiredDistrictEtcBtn = !desiredDistrictEtcBtn; desiredDistrictEtc = ''"
           >
           <label
             for="기타(직접 입력)"
             class="mr-2"
           >기타(직접 입력)</label>
           <input
+            v-model="desiredDistrictEtc"
             type="text"
-            class="form-input rounded border-gray-300 bg-gray-100 w-[20rem]"
+            :disabled="desiredDistrictEtcBtn"
+            class="form-input rounded disabled:bg-gray-200 border-gray-300 bg-gray-100 w-[20rem]"
           >
         </div>
       </div>
@@ -468,6 +577,7 @@ export default {
           <div>*</div>
         </div>
         <textarea
+          v-model="inquiryContent"
           class="h-64 bg-gray-100 border-gray-300 mb-8 mt-2"
           placeholder="내용을 입력해 주세요."
         />
@@ -475,10 +585,13 @@ export default {
       <!-- 개인정보취급방침 -->
     </div>
     <div class="flex justify-center mt-10 mb-16">
+      <!-- 신청 시 모달창 띄어서 한번 더 확인하게 -->
+      <!-- 필수 항목 미 입력 시 진행 X -->
       <button
         to="/"
         type="button"
         class="flex justify-center items-center text-white bg-somidam border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full px-6 w-32"
+        @click="saveJoin"
       >
         신청하기
       </button>
