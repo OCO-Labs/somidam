@@ -24,7 +24,7 @@ export default {
         width="150"
         height="150"
       >
-      <div class="text-7xl font-black mt-2 text-somidam">
+      <div class="text-8xl font-cafe24 font-black mt-2 text-somidam">
         창업안내
       </div>
     </div>
@@ -35,10 +35,10 @@ export default {
       data-aos-delay="100"
       class="flex flex-col items-center justify-center rounded-full bg-[#F4EFEA] w-56 h-56"
     >
-      <div class="text-somidam font-semibold underline underline-offset-4 mb-1.5">
+      <div class="text-somidam font-nanumsquare font-bold underline underline-offset-4 mb-1.5">
         STEP. 01
       </div>
-      <div class="text-somidam font-bold text-2xl text-center">
+      <div class="text-somidam font-nanumsquare font-extrabold text-2xl text-center">
         가맹 상담
       </div>
     </div>
@@ -47,10 +47,10 @@ export default {
       data-aos-delay="200"
       class="flex flex-col items-center justify-center rounded-full bg-[#F4EFEA] w-56 h-56"
     >
-      <div class="text-somidam font-semibold underline underline-offset-4 mb-1.5">
+      <div class="text-somidam font-nanumsquare font-bold underline underline-offset-4 mb-1.5">
         STEP. 02
       </div>
-      <div class="text-somidam font-bold text-2xl text-center">
+      <div class="text-somidam font-nanumsquare font-extrabold text-2xl text-center">
         상권 분석
       </div>
     </div>
@@ -59,10 +59,10 @@ export default {
       data-aos-delay="300"
       class="flex flex-col items-center justify-center rounded-full bg-[#F4EFEA] w-56 h-56"
     >
-      <div class="text-somidam font-semibold underline underline-offset-4 mb-1.5">
+      <div class="text-somidam font-nanumsquare font-bold underline underline-offset-4 mb-1.5">
         STEP. 03
       </div>
-      <div class="text-somidam font-bold text-2xl text-center">
+      <div class="text-somidam font-nanumsquare font-extrabold text-2xl text-center">
         점포 선정
       </div>
     </div>
@@ -71,10 +71,10 @@ export default {
       data-aos-delay="400"
       class="flex flex-col items-center justify-center rounded-full bg-[#F4EFEA] w-56 h-56"
     >
-      <div class="text-somidam font-semibold underline underline-offset-4 mb-1.5">
+      <div class="text-somidam font-nanumsquare font-bold underline underline-offset-4 mb-1.5">
         STEP. 04
       </div>
-      <div class="text-somidam font-bold text-2xl text-center">
+      <div class="text-somidam font-nanumsquare font-extrabold text-2xl text-center">
         가맹 계약
       </div>
     </div>
@@ -83,10 +83,10 @@ export default {
       data-aos-delay="500"
       class="flex flex-col items-center justify-center rounded-full bg-[#F4EFEA] w-56 h-56"
     >
-      <div class="text-somidam font-semibold underline underline-offset-4 mb-1.5">
+      <div class="text-somidam font-nanumsquare font-bold underline underline-offset-4 mb-1.5">
         STEP. 05
       </div>
-      <div class="text-somidam font-bold text-2xl text-center">
+      <div class="text-somidam font-nanumsquare font-extrabold text-2xl text-center">
         인테리어 및 <br>집기 계약 체결
       </div>
     </div>
@@ -95,10 +95,10 @@ export default {
       data-aos-delay="600"
       class="flex flex-col items-center justify-center rounded-full bg-[#F4EFEA] w-56 h-56"
     >
-      <div class="text-somidam font-semibold underline underline-offset-4 mb-1.5">
+      <div class="text-somidam font-nanumsquare font-bold underline underline-offset-4 mb-1.5">
         STEP. 06
       </div>
-      <div class="text-somidam font-bold text-2xl text-center">
+      <div class="text-somidam font-nanumsquare font-extrabold text-2xl text-center">
         인허가 업무
       </div>
     </div>
@@ -107,10 +107,10 @@ export default {
       data-aos-delay="700"
       class="flex flex-col items-center justify-center rounded-full bg-[#F4EFEA] w-56 h-56"
     >
-      <div class="text-somidam font-semibold underline underline-offset-4 mb-1.5">
+      <div class="text-somidam font-nanumsquare font-bold underline underline-offset-4 mb-1.5">
         STEP. 07
       </div>
-      <div class="text-somidam font-bold text-2xl text-center">
+      <div class="text-somidam font-nanumsquare font-extrabold text-2xl text-center">
         개점 일정 확정
       </div>
     </div>
@@ -119,10 +119,10 @@ export default {
       data-aos-delay="800"
       class="flex flex-col items-center justify-center rounded-full bg-[#F4EFEA] w-56 h-56"
     >
-      <div class="text-somidam font-semibold underline underline-offset-4 mb-1.5">
+      <div class="text-somidam font-nanumsquare font-bold underline underline-offset-4 mb-1.5">
         STEP. 08
       </div>
-      <div class="text-somidam font-bold text-2xl text-center">
+      <div class="text-somidam font-nanumsquare font-extrabold text-2xl text-center">
         오픈 전 교육
       </div>
     </div>
@@ -131,10 +131,10 @@ export default {
       data-aos-delay="900"
       class="flex flex-col items-center justify-center rounded-full bg-[#F4EFEA] w-56 h-56"
     >
-      <div class="text-somidam font-semibold underline underline-offset-4 mb-1.5">
+      <div class="text-somidam font-nanumsquare font-bold underline underline-offset-4 mb-1.5">
         STEP. 09
       </div>
-      <div class="text-somidam font-bold text-2xl text-center">
+      <div class="text-somidam font-nanumsquare font-extrabold text-2xl text-center">
         인테리어 및<br>집기 세팅 후<br>초도물품 입고
       </div>
     </div>
@@ -143,10 +143,10 @@ export default {
       data-aos-delay="1000"
       class="flex flex-col items-center justify-center rounded-full bg-somidam scale-50 opacity-0 intersect:scale-100 intersect:opacity-100 transition w-56 h-56"
     >
-      <div class="text-[#F4EFEA] font-semibold underline underline-offset-4 mb-1.5">
+      <div class="text-[#F4EFEA] font-bold underline underline-offset-4 mb-1.5">
         STEP. 10
       </div>
-      <div class="text-[#F4EFEA] font-bold text-2xl text-center">
+      <div class="text-[#F4EFEA] font-extrabold text-2xl text-center">
         오픈
       </div>
     </div>

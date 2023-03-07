@@ -22,15 +22,15 @@ export default ({
         width="150"
         height="150"
       >
-      <div class="text-somidam sm:text-9xl text-8xl font-bold mt-3">
+      <div class="text-somidam font-cafe24 sm:text-9xl text-8xl font-bold mt-3">
         MENU
       </div>
-      <div class="text-somidam sm:text-xl text-lg font-semibold">
+      <div class="text-somidam font-nanumsquare sm:text-xl text-lg font-semibold">
         찾으시는 메뉴를 클릭해서 확인해보세요
       </div>
     </div>
     <div class="flex items-center justify-center space-x-6 mt-28">
-      <div class="text-somidam lg:text-5xl sm:text-4xl text-3xl font-bold">
+      <div class="text-somidam font-cafe24 lg:text-5xl sm:text-4xl text-3xl font-bold">
         DESSERT MENU
       </div>
       <hr class="2xl:w-[52rem] xl:w-[49rem] lg:w-[38rem] hidden md:block md:w-1/2 h-0.5 bg-somidam">
@@ -45,16 +45,16 @@ export default ({
           alt=""
         >
         <div class="flex flex-col items-center py-10">
-          <div class="font-bold xl:text-3xl lg:text-2xl text-somidam mb-1">
+          <div class="font-extrabold font-nanumsquare xl:text-3xl lg:text-2xl text-somidam mb-1">
             소미담 모듬떡 세트
           </div>
-          <span class="text-gray-400 text-base mb-6">
+          <span class="text-gray-400 font-nanumsquare text-base mb-6">
             16,800원
           </span>
           <router-link
             to="/"
             type="button"
-            class="text-somidam bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
+            class="text-somidam font-nanumsquare bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
           >
             자세히보기
           </router-link>
@@ -68,16 +68,16 @@ export default ({
           alt=""
         >
         <div class="flex flex-col items-center py-10">
-          <div class="font-bold xl:text-3xl lg:text-2xl text-somidam mb-1">
+          <div class="font-extrabold font-nanumsquare xl:text-3xl lg:text-2xl text-somidam mb-1">
             자색 고구마 크림떡
           </div>
-          <span class="text-gray-400 text-base mb-6">
+          <span class="text-gray-400 font-nanumsquare text-base mb-6">
             16,800원
           </span>
           <router-link
             to="/"
             type="button"
-            class="text-somidam bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
+            class="text-somidam font-nanumsquare bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
           >
             자세히보기
           </router-link>
@@ -91,16 +91,16 @@ export default ({
           alt=""
         >
         <div class="flex flex-col items-center py-10">
-          <div class="font-bold xl:text-3xl lg:text-2xl text-somidam mb-1">
+          <div class="font-extrabold font-nanumsquare xl:text-3xl lg:text-2xl text-somidam mb-1">
             카스테라 옥수수 크림떡 
           </div>
-          <span class="text-gray-400 text-base mb-6">
+          <span class="text-gray-400 font-nanumsquare text-base mb-6">
             16,800원
           </span>
           <router-link
             to="/"
             type="button"
-            class="text-somidam bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
+            class="text-somidam font-nanumsquare bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
           >
             자세히보기
           </router-link>
@@ -114,16 +114,16 @@ export default ({
           alt=""
         >
         <div class="flex flex-col items-center py-10">
-          <div class="font-bold xl:text-3xl lg:text-2xl text-somidam mb-1">
+          <div class="font-extrabold font-nanumsquare xl:text-3xl lg:text-2xl text-somidam mb-1">
             쑥 두텁떡
           </div>
-          <span class="text-gray-400 text-base mb-6">
+          <span class="text-gray-400 font-nanumsquare text-base mb-6">
             14,400원
           </span>
           <router-link
             to="/"
             type="button"
-            class="text-somidam bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
+            class="text-somidam font-nanumsquare bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
           >
             자세히보기
           </router-link>
@@ -137,16 +137,16 @@ export default ({
           alt=""
         >
         <div class="flex flex-col items-center py-10">
-          <div class="font-bold xl:text-3xl lg:text-2xl text-somidam mb-1">
+          <div class="font-extrabold font-nanumsquare xl:text-3xl lg:text-2xl text-somidam mb-1">
             흑임자 인절미
           </div>
-          <span class="text-gray-400 text-base mb-6">
+          <span class="text-gray-400 font-nanumsquare text-base mb-6">
             18,000원
           </span>
           <router-link
             to="/"
             type="button"
-            class="text-somidam bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
+            class="text-somidam font-nanumsquare bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
           >
             자세히보기
           </router-link>
@@ -160,16 +160,16 @@ export default ({
           alt=""
         >
         <div class="flex flex-col items-center py-10">
-          <div class="font-bold xl:text-3xl lg:text-2xl text-somidam mb-1">
+          <div class="font-extrabold font-nanumsquare xl:text-3xl lg:text-2xl text-somidam mb-1">
             이북식 인절미
           </div>
-          <span class="text-gray-400 text-base mb-6">
+          <span class="text-gray-400 font-nanumsquare text-base mb-6">
             16,800원
           </span>
           <router-link
             to="/"
             type="button"
-            class="text-somidam bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
+            class="text-somidam font-nanumsquare bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
           >
             자세히보기
           </router-link>
@@ -183,16 +183,16 @@ export default ({
           alt=""
         >
         <div class="flex flex-col items-center py-10">
-          <div class="font-bold xl:text-3xl lg:text-2xl text-somidam mb-1">
+          <div class="font-extrabold font-nanumsquare xl:text-3xl lg:text-2xl text-somidam mb-1">
             카스테라 호박 인절미
           </div>
-          <span class="text-gray-400 text-base mb-6">
+          <span class="text-gray-400 font-nanumsquare text-base mb-6">
             16,800원
           </span>
           <router-link
             to="/"
             type="button"
-            class="text-somidam bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
+            class="text-somidam font-nanumsquare bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
           >
             자세히보기
           </router-link>
@@ -206,16 +206,16 @@ export default ({
           alt=""
         >
         <div class="flex flex-col items-center py-10">
-          <div class="font-bold xl:text-3xl lg:text-2xl text-somidam mb-1">
+          <div class="font-extrabold font-nanumsquare xl:text-3xl lg:text-2xl text-somidam mb-1">
             사색기정떡
           </div>
-          <span class="text-gray-400 text-base mb-6">
+          <span class="text-gray-400 font-nanumsquare text-base mb-6">
             16,800원
           </span>
           <router-link
             to="/"
             type="button"
-            class="text-somidam bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
+            class="text-somidam font-nanumsquare bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
           >
             자세히보기
           </router-link>
@@ -229,16 +229,16 @@ export default ({
           alt=""
         >
         <div class="flex flex-col items-center py-10">
-          <div class="font-bold xl:text-3xl lg:text-2xl text-somidam mb-1">
+          <div class="font-extrabold font-nanumsquare xl:text-3xl lg:text-2xl text-somidam mb-1">
             콩고물 인절미
           </div>
-          <span class="text-gray-400 text-base mb-6">
+          <span class="text-gray-400 font-nanumsquare text-base mb-6">
             16,800원
           </span>
           <router-link
             to="/"
             type="button"
-            class="text-somidam bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
+            class="text-somidam font-nanumsquare bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
           >
             자세히보기
           </router-link>
@@ -252,16 +252,16 @@ export default ({
           alt=""
         >
         <div class="flex flex-col items-center py-10">
-          <div class="font-bold xl:text-3xl lg:text-2xl text-somidam mb-1">
+          <div class="font-extrabold font-nanumsquare xl:text-3xl lg:text-2xl text-somidam mb-1">
             꿀떡
           </div>
-          <span class="text-gray-400 text-base mb-6">
+          <span class="text-gray-400 font-nanumsquare text-base mb-6">
             16,800원
           </span>
           <router-link
             to="/"
             type="button"
-            class="text-somidam bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
+            class="text-somidam font-nanumsquare bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
           >
             자세히보기
           </router-link>
@@ -275,16 +275,16 @@ export default ({
           alt=""
         >
         <div class="flex flex-col items-center py-10">
-          <div class="font-bold xl:text-3xl lg:text-2xl text-somidam mb-1">
+          <div class="font-extrabold font-nanumsquare xl:text-3xl lg:text-2xl text-somidam mb-1">
             쑥콩찰떡
           </div>
-          <span class="text-gray-400 text-base mb-6">
+          <span class="text-gray-400 font-nanumsquare text-base mb-6">
             16,800원
           </span>
           <router-link
             to="/"
             type="button"
-            class="text-somidam bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
+            class="text-somidam font-nanumsquare bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
           >
             자세히보기
           </router-link>
@@ -298,16 +298,16 @@ export default ({
           alt=""
         >
         <div class="flex flex-col items-center py-10">
-          <div class="font-bold xl:text-3xl lg:text-2xl text-somidam mb-1">
+          <div class="font-extrabold font-nanumsquare xl:text-3xl lg:text-2xl text-somidam mb-1">
             바람떡
           </div>
-          <span class="text-gray-400 text-base mb-6">
+          <span class="text-gray-400 font-nanumsquare text-base mb-6">
             16,800원
           </span>
           <router-link
             to="/"
             type="button"
-            class="text-somidam bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
+            class="text-somidam font-nanumsquare bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
           >
             자세히보기
           </router-link>
@@ -321,16 +321,16 @@ export default ({
           alt=""
         >
         <div class="flex flex-col items-center py-10">
-          <div class="font-bold xl:text-3xl lg:text-2xl text-somidam mb-1">
+          <div class="font-extrabold font-nanumsquare xl:text-3xl lg:text-2xl text-somidam mb-1">
             찹쌀 약밥
           </div>
-          <span class="text-gray-400 text-base mb-6">
+          <span class="text-gray-400 font-nanumsquare text-base mb-6">
             16,800원
           </span>
           <router-link
             to="/"
             type="button"
-            class="text-somidam bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
+            class="text-somidam font-nanumsquare bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
           >
             자세히보기
           </router-link>
@@ -344,16 +344,16 @@ export default ({
           alt=""
         >
         <div class="flex flex-col items-center py-10">
-          <div class="font-bold xl:text-3xl lg:text-2xl text-somidam mb-1">
+          <div class="font-extrabold font-nanumsquare xl:text-3xl lg:text-2xl text-somidam mb-1">
             통팥 앙금 절편
           </div>
-          <span class="text-gray-400 text-base mb-6">
+          <span class="text-gray-400 font-nanumsquare text-base mb-6">
             16,800원
           </span>
           <router-link
             to="/"
             type="button"
-            class="text-somidam bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
+            class="text-somidam font-nanumsquare bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
           >
             자세히보기
           </router-link>
@@ -367,16 +367,16 @@ export default ({
           alt=""
         >
         <div class="flex flex-col items-center py-10">
-          <div class="font-bold xl:text-3xl lg:text-2xl text-somidam mb-1">
+          <div class="font-extrabold font-nanumsquare xl:text-3xl lg:text-2xl text-somidam mb-1">
             제주 오메기 떡
           </div>
-          <span class="text-gray-400 text-base mb-6">
+          <span class="text-gray-400 font-nanumsquare text-base mb-6">
             16,800원
           </span>
           <router-link
             to="/"
             type="button"
-            class="text-somidam bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
+            class="text-somidam font-nanumsquare bg-white border-2 border-somidam focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-xl px-6"
           >
             자세히보기
           </router-link>

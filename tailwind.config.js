@@ -10,6 +10,10 @@ module.exports = {
     extend: {
       colors: {
         'somidam' : '#946045'
+      },
+      fontFamily: {
+        cafe24: ['Cafe24Ohsquare', 'sans-serif'],
+        nanumsquare: ['nanumsquare', 'sans-serif'],
       }
     },
   },

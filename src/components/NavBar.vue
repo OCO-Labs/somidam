@@ -11,25 +11,25 @@
         <div class="flex sm:pt-0 pt-4 md:space-x-6 sm:space-x-3">
           <router-link
             to="/"
-            class="text-somidam font-bold hover:bg-gray-100 rounded px-4 py-2"
+            class="text-somidam font-nanumsquare font-extrabold hover:bg-gray-100 rounded px-4 py-2"
           >
             브랜드
           </router-link>
           <router-link
             to="/menu"
-            class="text-somidam font-bold hover:bg-gray-100 rounded px-2 py-2"
+            class="text-somidam font-nanumsquare font-extrabold hover:bg-gray-100 rounded px-2 py-2"
           >
             메뉴
           </router-link>
           <router-link
             to="/start"
-            class="text-somidam font-bold hover:bg-gray-100 rounded px-2 py-2"
+            class="text-somidam font-nanumsquare font-extrabold hover:bg-gray-100 rounded px-2 py-2"
           >
             창업안내
           </router-link>
           <router-link
             to="/join"
-            class="text-somidam font-bold hover:bg-gray-100 rounded px-2 py-2"
+            class="text-somidam font-nanumsquare font-extrabold hover:bg-gray-100 rounded px-2 py-2"
           >
             가맹안내
           </router-link>
