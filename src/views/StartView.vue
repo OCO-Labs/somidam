@@ -32,6 +32,7 @@ export default {
   <div class="grid 2xl:grid-cols-5 xl:grid-cols-3 sm:grid-cols-2 gap-y-10 lg:mx-52 sm:mx-auto my-28 justify-items-center">
     <div
       data-aos="fade-down"
+      data-aos-delay="100"
       class="flex flex-col items-center justify-center rounded-full bg-[#F4EFEA] w-56 h-56"
     >
       <div class="text-somidam font-semibold underline underline-offset-4 mb-1.5">
@@ -43,6 +44,7 @@ export default {
     </div>
     <div
       data-aos="fade-down"
+      data-aos-delay="200"
       class="flex flex-col items-center justify-center rounded-full bg-[#F4EFEA] w-56 h-56"
     >
       <div class="text-somidam font-semibold underline underline-offset-4 mb-1.5">
@@ -54,6 +56,7 @@ export default {
     </div>
     <div
       data-aos="fade-down"
+      data-aos-delay="300"
       class="flex flex-col items-center justify-center rounded-full bg-[#F4EFEA] w-56 h-56"
     >
       <div class="text-somidam font-semibold underline underline-offset-4 mb-1.5">
@@ -65,6 +68,7 @@ export default {
     </div>
     <div
       data-aos="fade-down"
+      data-aos-delay="400"
       class="flex flex-col items-center justify-center rounded-full bg-[#F4EFEA] w-56 h-56"
     >
       <div class="text-somidam font-semibold underline underline-offset-4 mb-1.5">
@@ -76,6 +80,7 @@ export default {
     </div>
     <div
       data-aos="fade-down"
+      data-aos-delay="500"
       class="flex flex-col items-center justify-center rounded-full bg-[#F4EFEA] w-56 h-56"
     >
       <div class="text-somidam font-semibold underline underline-offset-4 mb-1.5">
@@ -87,6 +92,7 @@ export default {
     </div>
     <div
       data-aos="fade-down"
+      data-aos-delay="600"
       class="flex flex-col items-center justify-center rounded-full bg-[#F4EFEA] w-56 h-56"
     >
       <div class="text-somidam font-semibold underline underline-offset-4 mb-1.5">
@@ -98,6 +104,7 @@ export default {
     </div>
     <div
       data-aos="fade-down"
+      data-aos-delay="700"
       class="flex flex-col items-center justify-center rounded-full bg-[#F4EFEA] w-56 h-56"
     >
       <div class="text-somidam font-semibold underline underline-offset-4 mb-1.5">
@@ -109,6 +116,7 @@ export default {
     </div>
     <div
       data-aos="fade-down"
+      data-aos-delay="800"
       class="flex flex-col items-center justify-center rounded-full bg-[#F4EFEA] w-56 h-56"
     >
       <div class="text-somidam font-semibold underline underline-offset-4 mb-1.5">
@@ -120,6 +128,7 @@ export default {
     </div>
     <div
       data-aos="fade-down"
+      data-aos-delay="900"
       class="flex flex-col items-center justify-center rounded-full bg-[#F4EFEA] w-56 h-56"
     >
       <div class="text-somidam font-semibold underline underline-offset-4 mb-1.5">
@@ -131,6 +140,7 @@ export default {
     </div>
     <div
       data-aos="fade-down"
+      data-aos-delay="1000"
       class="flex flex-col items-center justify-center rounded-full bg-somidam scale-50 opacity-0 intersect:scale-100 intersect:opacity-100 transition w-56 h-56"
     >
       <div class="text-[#F4EFEA] font-semibold underline underline-offset-4 mb-1.5">
