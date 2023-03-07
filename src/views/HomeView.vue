@@ -1,25 +1,15 @@
 <script>
 import FirstBanner from '../components/FirstBanner.vue';
-import NavScroll from '../components/NavScroll.vue';
-import SecondBanner from '../components/SecondBanner.vue';
-import NavBar from '../components/NavBar.vue';
 
 export default {
   components: {
     FirstBanner,
-    NavScroll,
-    SecondBanner,
-    NavBar
   }
 }
-
 </script>
 
 <template>
   <FirstBanner />
-  <NavScroll />
-  <NavBar />
-  <SecondBanner />
 </template>
 
 <!-- css style을 따로 정의할 땐 꼭 scoped 로!! -->
