@@ -7,7 +7,7 @@
         width="180"
         height="180"
       >
-      <div class="flex flex-col xl:w-2/3 text-sm xl:self-center xl:pt-0 pt-2">
+      <div class="flex flex-col xl:w-2/3 text-sm xl:self-center xl:pt-0 pt-2 font-nanumsquare">
         <div class="flex">
           <div class="font-bold">
             Company/CEO

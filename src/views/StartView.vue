@@ -151,4 +151,167 @@ export default {
       </div>
     </div>
   </div>
+  <div class="flex flex-col mx-4 2xl:mx-60 xl:mx-56 lg:mx-40 md:mx-24 sm:mx-12 mb-16">
+    <div class="font-nanumsquare text-somidam font-bold md:text-lg text-sm mb-2">
+      * 매장 여건에 따라 변동이 가능합니다.
+    </div>
+    <table class="border-collapse font-nanumsquare lg:text-xl md:text-lg text-sm">
+      <thead class="bg-somidam text-[#F4EFEB] font-extrabold">
+        <tr>
+          <th class="border border-t-0 border-l-0 w-[18rem] p-4">
+            구분
+          </th>
+          <th class="border border-t-0 w-[50rem] p-4">
+            내용
+          </th>
+          <th class="border border-t-0 border-r-0 w-[18rem] p-4">
+            비용
+          </th>
+        </tr>
+      </thead>
+      <tbody class="bg-[#F4EFEB] text-center text-somidam font-extrabold">
+        <tr>
+          <td class="border border-t-0 border-l-0 border-somidam p-4">
+            가맹비
+          </td>
+          <td class="border border-somidam p-4">
+            -
+          </td>
+          <td class="border border-t-0 border-r-0 border-somidam p-4">
+            5,000,000
+          </td>
+        </tr>
+        <tr>
+          <td class="border border-t-0 border-l-0 border-somidam p-4">
+            교육비
+          </td>
+          <td class="border border-somidam p-4">
+            조리 / 경영 / 운영 일체
+          </td>
+          <td class="border border-t-0 border-r-0 border-somidam p-4">
+            5,000,000
+          </td>
+        </tr>
+        <tr>
+          <td class="border border-t-0 border-l-0 border-somidam p-4">
+            인테리어 1
+          </td>
+          <td class="border border-somidam p-4">
+            <div class="flex flex-col">
+              <div>
+                항목 1. 내부공사(DID 메뉴 모니터 / 제작 쇼케이스, 음향포함)
+              </div>
+              <div>
+                항목 2. 외부공사(입구 파사드 조성)
+              </div>
+              <div>
+                * 소미담 메뉴얼 및 시공도면 제공
+              </div>
+            </div>
+          </td>
+          <td class="border border-t-0 border-r-0 border-somidam p-4">
+            가맹점주 자율시공
+          </td>
+        </tr>
+        <tr>
+          <td class="border border-t-0 border-l-0 border-somidam p-4">
+            인테리어 2
+          </td>
+          <td class="border border-somidam">
+            본사 디자인
+          </td>
+          <td class="border border-t-0 border-r-0 border-somidam p-4">
+            10,000,000
+          </td>
+        </tr>
+        <tr>
+          <td class="border border-t-0 border-l-0 border-somidam p-4">
+            인테리어 3
+          </td>
+          <td class="border border-somidam p-4">
+            본사 감독비
+          </td>
+          <td class="border border-t-0 border-r-0 border-somidam p-4">
+            10,000,000
+          </td>
+        </tr>
+        <tr>
+          <td class="border border-t-0 border-l-0 border-somidam p-4">
+            SIGN
+          </td>
+          <td class="border border-somidam p-4">
+            간판 / 사인물
+          </td>
+          <td class="border border-t-0 border-r-0 border-somidam p-4">
+            15,000,000
+          </td>
+        </tr>
+        <tr>
+          <td class="border border-t-0 border-l-0 border-somidam p-4">
+            가구
+          </td>
+          <td class="border border-somidam p-4">
+            의 / 탁자
+          </td>
+          <td class="border border-t-0 border-r-0 border-somidam p-4">
+            9,500,000
+          </td>
+        </tr>
+        <tr>
+          <td class="border border-t-0 border-l-0 border-somidam p-4">
+            기계설비
+          </td>
+          <td class="border border-somidam p-4">
+            주방기기
+          </td>
+          <td class="border border-t-0 border-r-0 border-somidam p-4">
+            52,000,000
+          </td>
+        </tr>
+        <tr>
+          <td class="border border-t-0 border-l-0 border-somidam p-4">
+            초도물품
+          </td>
+          <td class="border border-somidam border-b-0 p-4">
+            <div class="flex flex-col">
+              <div>
+                - 유텐실(POS, 주방집기, 비품)
+              </div>
+              <div>
+                - 디스플레이(홍보물, 소품, 모형)
+              </div>
+              <div>
+                - 기타(식자재, 부자재, 디저트)
+              </div>
+            </div>
+          </td>
+          <td class="border border-t-0 border-r-0 border-b-0 border-somidam p-4">
+            추후 발주
+          </td>
+        </tr>
+      </tbody>
+      <tfoot class="bg-somidam text-[#F4EFEB] font-extrabold text-center">
+        <tr>
+          <td class="border border-t-0 border-l-0 p-4">
+            총계
+          </td>
+          <td
+            colspan="2"
+            class="border border-r-0 border-t-0 p-4"
+          >
+            106,500,000 (VAT 별도)
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+    <div class="font-nanumsquare text-somidam font-bold md:text-lg text-sm mt-4">
+      * 초도물품은 오픈전(본사 교육 중) 협의 발주
+    </div>
+    <div class="font-nanumsquare text-somidam font-bold md:text-lg text-sm my-2">
+      * 인테리어 도급계약은 본 가맹점주와 인테리어 업체 간 양자 계약 진행
+    </div>
+    <div class="font-nanumsquare text-somidam font-bold md:text-lg text-sm">
+      * 인테리어 공사 중 볃도공사제외: 키오스크, 냉난방, 소방, 전기증설, 화장실, 철거, 계단, 어닝, 용도변경 등 도면 포기 외 공사
+    </div>
+  </div>
 </template>

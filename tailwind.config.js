@@ -9,7 +9,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'somidam' : '#946045'
+        'somidam' : '#A36036'
       },
       fontFamily: {
         cafe24: ['Cafe24Ohsquare', 'sans-serif'],
