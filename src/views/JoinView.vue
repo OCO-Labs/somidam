@@ -1,73 +1,73 @@
 <script>
 import NavBar from '../components/NavBar.vue'
-import { addDoc, collection } from 'firebase/firestore'
-import { db } from '@/main'
+// import { addDoc, collection } from 'firebase/firestore'
+// import { db } from '@/main'
 
 export default {
   name: 'JoinView',
   components: {
     NavBar
   },
-  data() {
-    return {
-      name: '',
-      gender: '',
-      age: '',
-      startTell: '',
-      endTell: '',
-      startEmail: '',
-      endEmail: '',
-      applicationReasons: [],
-      applicationReasonsEtc: '',
-      applicationReasonsEtcBtn: true,
-      livingStartPlace: '',
-      livingEndPlace: '',
-      joinStartPlace: '',
-      joinEndPlace: '',
-      desiredTimed: "",
-      desiredTimedEtc: '',
-      desiredTimedEtcBtn: true,
-      desiredDistrict: [],
-      desiredDistrictEtc: '',
-      desiredDistrictEtcBtn: true,
-      investmentCosts: "",
-      inquiryContent: "",
-    }
-  },
-  watch: {
-    desiredTimed () {
-      this.desiredTimedEtc = ''
-      this.desiredTimedEtcBtn = true
-    }
-  },
-  methods: {
-    async saveJoin () {
-      const docRef = await addDoc(collection(db, 'join'), {
-        name: this.name,
-        gender: this.gender,
-        age: this.age,
-        startTell: this.startTell,
-        endTell: this.endTell,
-        startEmail: this.startEmail,
-        endEmail: this.endEmail,
-        applicationReasons: this.applicationReasons,
-        applicationReasonsEtc: this.applicationReasonsEtc,
-        livingStartPlace: this.livingStartPlace,
-        livingEndPlace: this.livingEndPlace,
-        joinStartPlace: this.joinStartPlace,
-        joinEndPlace: this.joinEndPlace,
-        desiredTimed: this.desiredTimed,
-        desiredTimedEtc: this.desiredTimedEtc,
-        desiredDistrict: this.desiredDistrict,
-        desiredDistrictEtc: this.desiredDistrictEtc,
-        investmentCosts: this.investmentCosts,
-        inquiryContent: this.inquiryContent,
-        created: new Date().getTime()
-      })
-      console.log('Document written with ID: ', docRef.id)
-      this.$router.push('/')
-    },
-  }
+  // data() {
+  //   return {
+  //     name: '',
+  //     gender: '',
+  //     age: '',
+  //     startTell: '',
+  //     endTell: '',
+  //     startEmail: '',
+  //     endEmail: '',
+  //     applicationReasons: [],
+  //     applicationReasonsEtc: '',
+  //     applicationReasonsEtcBtn: true,
+  //     livingStartPlace: '',
+  //     livingEndPlace: '',
+  //     joinStartPlace: '',
+  //     joinEndPlace: '',
+  //     desiredTimed: "",
+  //     desiredTimedEtc: '',
+  //     desiredTimedEtcBtn: true,
+  //     desiredDistrict: [],
+  //     desiredDistrictEtc: '',
+  //     desiredDistrictEtcBtn: true,
+  //     investmentCosts: "",
+  //     inquiryContent: "",
+  //   }
+  // },
+  // watch: {
+  //   desiredTimed () {
+  //     this.desiredTimedEtc = ''
+  //     this.desiredTimedEtcBtn = true
+  //   }
+  // },
+  // methods: {
+  //   async saveJoin () {
+  //     const docRef = await addDoc(collection(db, 'join'), {
+  //       name: this.name,
+  //       gender: this.gender,
+  //       age: this.age,
+  //       startTell: this.startTell,
+  //       endTell: this.endTell,
+  //       startEmail: this.startEmail,
+  //       endEmail: this.endEmail,
+  //       applicationReasons: this.applicationReasons,
+  //       applicationReasonsEtc: this.applicationReasonsEtc,
+  //       livingStartPlace: this.livingStartPlace,
+  //       livingEndPlace: this.livingEndPlace,
+  //       joinStartPlace: this.joinStartPlace,
+  //       joinEndPlace: this.joinEndPlace,
+  //       desiredTimed: this.desiredTimed,
+  //       desiredTimedEtc: this.desiredTimedEtc,
+  //       desiredDistrict: this.desiredDistrict,
+  //       desiredDistrictEtc: this.desiredDistrictEtc,
+  //       investmentCosts: this.investmentCosts,
+  //       inquiryContent: this.inquiryContent,
+  //       created: new Date().getTime()
+  //     })
+  //     console.log('Document written with ID: ', docRef.id)
+  //     this.$router.push('/')
+  //   },
+  // }
 }
 </script>
 
